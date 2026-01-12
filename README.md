@@ -72,6 +72,7 @@ The analysis pipeline consists of the following steps:
 ---
 
 ## 🗂 Repository Structure
+```text
 .
 ├── load_data.py              # Data loading and preprocessing
 ├── transitions.py            # Event mapping and graph construction
@@ -81,7 +82,7 @@ The analysis pipeline consists of the following steps:
 ├── visualization.py          # Graphs and plots
 ├── README.md                 # Project documentation
 ---
-
+```
 ## ⚙️ Technologies Used
 
 - **Python**
@@ -98,16 +99,18 @@ The analysis pipeline consists of the following steps:
 ```bash
 git clone https://github.com/mirzoyanvahe/entropy-based-cybersecurity-analysis.git
 cd entropy-based-cybersecurity-analysis
+```
 
 ### 2. (Optional) Create and activate a virtual environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 ### 3. Install dependencies
 ```bash
 pip install pandas numpy networkx matplotlib
+```
 
 ### 4. Run the analysis scripts
 ```bash
@@ -116,6 +119,7 @@ python markov.py
 python entropy.py
 python temporal_analysis.py
 python visualization.py
+```
 
 ## 📈 Key Outcomes
 
